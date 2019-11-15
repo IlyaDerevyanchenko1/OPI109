@@ -13,7 +13,7 @@ int main()
 	cout << "Enter y:";
 	cin >> y;
 
-	for (int m = 2; m < 5; ++m) {
+	for (int m = 4; m < 6; ++m) {
 		comp = comp * log(m*y);
 	}
 
