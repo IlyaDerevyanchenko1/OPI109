@@ -6,8 +6,8 @@ using namespace std;
 
 int main()
 {
-	int b = 6;
-	double  x = 3, h = 0.5, y;
+	int b = 5;
+	double  x = 4, h = 0.4, y;
 
 	do {
 		y = pow(sin(x), 2) + cos(pow(x, 2)) + 2;
@@ -17,5 +17,5 @@ int main()
 	}
 	while (x <= b)
 
-	return 0;
+	return -1;
 }
